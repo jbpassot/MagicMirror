@@ -1,0 +1,5 @@
+git remote add -f MMM-Traffic https://github.com/SamLewis0602/MMM-Traffic.git
+git subtree add --prefix modules/MMM-Traffic MMM-Traffic master --squash
+
+git remote add -f MMM-BMW-CC https://github.com/mykle1/MMM-BMW-CC
+git subtree add --prefix modules/MMM-BMW-CC MMM-BMW-CC master --squash
