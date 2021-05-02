@@ -60,6 +60,7 @@ Temporary Items
 
 # Ignore all modules except the default modules.
 /modules/**
+!/modules/MMM-Traffic
 !/modules/default
 !/modules/default/**
 !/modules/README.md**
