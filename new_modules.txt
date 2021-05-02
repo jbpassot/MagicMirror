@@ -1,5 +1,11 @@
+# Traffic module
 git remote add -f MMM-Traffic https://github.com/SamLewis0602/MMM-Traffic.git
 git subtree add --prefix modules/MMM-Traffic MMM-Traffic master --squash
 
+# Weather forecast module
 git remote add -f MMM-BMW-CC https://github.com/mykle1/MMM-BMW-CC
 git subtree add --prefix modules/MMM-BMW-CC MMM-BMW-CC master --squash
+
+# Google Calendar
+git remote add -f MMM-CalendarExt2 https://github.com/eouia/MMM-CalendarExt2
+git subtree add --prefix modules/MMM-CalendarExt2 MMM-CalendarExt2 master --squash
