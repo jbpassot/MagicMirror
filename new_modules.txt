@@ -9,3 +9,15 @@ git subtree add --prefix modules/MMM-BMW-CC MMM-BMW-CC master --squash
 # Google Calendar
 git remote add -f MMM-CalendarExt2 https://github.com/eouia/MMM-CalendarExt2
 git subtree add --prefix modules/MMM-CalendarExt2 MMM-CalendarExt2 master --squash
+
+MMM-Breathwork
+
+MMM-ProfileSwitcher
+
+MMM-SystemStats
+
+MMM-Spotify
+
+MMM-AirNow
+
+"MMM-AirNow", "MMM-Events", "MMM-MovieListings", "MMM-MWWordOfTheDay"
