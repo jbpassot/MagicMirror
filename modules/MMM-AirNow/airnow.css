@@ -1,0 +1,36 @@
+.airLocation {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.airParameter {
+  text-align: left;
+  font-size: 16px;
+}
+
+.airAQI {
+  text-align: left;
+  font-size: 16px;
+}
+
+.airName {
+  font-size: 16px;
+}
+.airName.good {
+  color: #00e400;
+}
+.airName.moderate {
+  color: #ffff00;
+}
+.airName.sensitive {
+  color: #ff7e00;
+}
+.airName.unhealthy {
+  color: #ff0000;
+}
+.airName.v_unhealthy {
+  color: #99004c;
+}
+.airName.hazardous {
+  color: #7e0023;
+}
