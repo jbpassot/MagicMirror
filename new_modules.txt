@@ -48,7 +48,6 @@ cd ./modules/MMM-MWWordOfTheDay; npm install; cd ../..
 # MMM-WatchDog
 git remote add -f MMM-WatchDog https://github.com/MichMich/MMM-WatchDog.git
 git subtree add --prefix modules/MMM-WatchDog MMM-WatchDog master --squash
-cd ./modules/MMM-; npm install; cd ../..
 
 # MMM-ModuleScheduler
 git remote add -f MMM-ModuleScheduler https://github.com/ianperrin/MMM-ModuleScheduler
