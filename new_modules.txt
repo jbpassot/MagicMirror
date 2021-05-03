@@ -52,7 +52,7 @@ git subtree add --prefix modules/MMM-WatchDog MMM-WatchDog master --squash
 # MMM-ModuleScheduler
 git remote add -f MMM-ModuleScheduler https://github.com/ianperrin/MMM-ModuleScheduler
 git subtree add --prefix modules/MMM-ModuleScheduler MMM-ModuleScheduler master --squash
-cd ./modules/MMM-; npm install; cd ../..
+cd ./modules/MMM-; npm install --production; cd ../..
 
 # MMM-connection-status
 git remote add -f MMM-connection-status https://github.com/sheyabernstein/MMM-connection-status
