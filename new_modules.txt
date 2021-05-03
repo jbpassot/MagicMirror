@@ -10,14 +10,111 @@ git subtree add --prefix modules/MMM-BMW-CC MMM-BMW-CC master --squash
 git remote add -f MMM-CalendarExt2 https://github.com/eouia/MMM-CalendarExt2
 git subtree add --prefix modules/MMM-CalendarExt2 MMM-CalendarExt2 master --squash
 
-MMM-Breathwork
+# MMM-Breathwork
+//TODO
 
-MMM-ProfileSwitcher
+# MMM-ProfileSwitcher
+git remote add -f MMM-ProfileSwitcher  https://github.com/tosti007/MMM-ProfileSwitcher
+git subtree add --prefix modules/MMM-ProfileSwitcher MMM-ProfileSwitcher master --squash
 
-MMM-SystemStats
+# MMM-SystemStats
+git remote add -f MMM-SystemStats https://github.com/BenRoe/MMM-SystemStats
+git subtree add --prefix modules/MMM-SystemStats MMM-SystemStats master --squash
+cd ./modules/MMM-SystemStats; npm install; cd ../..
 
-MMM-Spotify
+# MMM-Spotify
+git remote add -f MMM-Spotify https://github.com/skuethe/MMM-Spotify
+git subtree add --prefix modules/MMM-Spotify MMM-Spotify master --squash
+cd ./modules/MMM-Spotify; npm install; cd ../..
 
-MMM-AirNow
+# MMM-AirNow
+git remote add -f MMM-AirNow https://github.com/nigel-daniels/MMM-AirNow
+git subtree add --prefix modules/MMM-AirNow MMM-AirNow master --squash
+cd ./modules/MMM-AirNow; npm install; cd ../..
 
-"MMM-AirNow", "MMM-Events", "MMM-MovieListings", "MMM-MWWordOfTheDay"
+# MMM-Events
+//TODO
+
+# MMM-MovieListings
+git remote add -f MMM-MovieListings https://github.com/Tueti/MMM-MovieListings.git
+git subtree add --prefix modules/MMM-MovieListings MMM-MovieListings master --squash
+cd ./modules/MMM-MovieListings; npm install; cd ../..
+
+# MMM-MWWordOfTheDay
+git remote add -f MMM-MWWordOfTheDay https://github.com/bittiez/MMM-MWWordOfTheDay.git
+git subtree add --prefix modules/MMM-MWWordOfTheDay MMM-MWWordOfTheDay master --squash
+cd ./modules/MMM-MWWordOfTheDay; npm install; cd ../..
+
+# MMM-WatchDog
+git remote add -f MMM-WatchDog https://github.com/MichMich/MMM-WatchDog.git
+git subtree add --prefix modules/MMM-WatchDog MMM-WatchDog master --squash
+cd ./modules/MMM-; npm install; cd ../..
+
+# MMM-ModuleScheduler
+git remote add -f MMM-ModuleScheduler https://github.com/ianperrin/MMM-ModuleScheduler
+git subtree add --prefix modules/MMM-ModuleScheduler MMM-ModuleScheduler master --squash
+cd ./modules/MMM-; npm install; cd ../..
+
+# MMM-connection-status
+git remote add -f MMM-connection-status https://github.com/sheyabernstein/MMM-connection-status
+git subtree add --prefix modules/MMM-connection-status MMM-connection-status master --squash
+cd ./modules/MMM-; npm install; cd ../..
+
+# MMM-HideAll
+git remote add -f MMM-HideAll https://github.com/Snille/MMM-HideAll
+git subtree add --prefix modules/MMM-HideAll MMM-HideAll master --squash
+cd ./modules/MMM-; npm install; cd ../..
+
+# MMM-Remote-Control
+git remote add -f MMM-Remote-Control https://github.com/Jopyth/MMM-Remote-Control.git
+git subtree add --prefix modules/MMM-Remote-Control MMM-Remote-Control master --squash
+cd ./modules/MMM-Remote-Control; npm install; cd ../..
+
+# MMM-Modulebar
+git remote add -f MMM-Modulebar https://github.com/Snille/MMM-Modulebar
+git subtree add --prefix modules/MMM-Modulebar MMM-Modulebar master --squash
+cd ./modules/MMM-Modulebar; npm install; cd ../..
+
+# Volume
+git remote add -f MMM-Volume https://github.com/Anonym-tsk/MMM-Volume
+git subtree add --prefix modules/MMM-Volume MMM-Volume master --squash
+cd ./modules/MMM-Volume; npm install; cd ../..
+
+# MMM-SmartTouch
+git remote add -f MMM-SmartTouch https://github.com/EbenKouao/MMM-SmartTouch.git
+git subtree add --prefix modules/MMM-SmartTouch MMM-SmartTouch master --squash
+cd ./modules/MMM-SmartTouch; npm install; cd ../..
+
+# MMM-AlexaPi
+git remote add -f MMM-AlexaPi https://github.com/dgonano/MMM-AlexaPi
+git subtree add --prefix modules/MMM-AlexaPi MMM-AlexaPi master --squash
+cd ./modules/MMM-AlexaPi; npm install; cd ../..
+
+# MMM-Cursor
+git remote add -f MMM-Cursor https://github.com/MarinescuEvghenii/MMM-Cursor.git
+git subtree add --prefix modules/MMM-Cursor MMM-Cursor master --squash
+cd ./modules/MMM-Cursor; npm install; cd ../..
+
+# MMM-Screencast
+git remote add -f MMM-Screencast https://github.com/kevinatown/MMM-Screencast
+git subtree add --prefix modules/MMM-Screencast MMM-Screencast master --squash
+cd ./modules/MMM-Screencast; npm install; cd ../..
+
+# MMM-page-indicator
+git remote add -f MMM-page-indicator https://github.com/edward-shen/MMM-page-indicator.git
+git subtree add --prefix modules/MMM-page-indicator MMM-page-indicator master --squash
+cd ./modules/MMM-page-indicator; npm install; cd ../..
+
+# MMM-AlexaControl
+git remote add -f MMM-AlexaControl https://github.com/JoChef2/MMM-AlexaControl.git
+git subtree add --prefix modules/MMM-AlexaControl MMM-AlexaControl master --squash
+cd ./modules/MMM-AlexaControl; npm install; cd ../..
+
+# MMM-GroveGestures
+git remote add -f MMM-GroveGestures git clone https://github.com/eouia/MMM-GroveGestures
+git subtree add --prefix modules/MMM-GroveGestures MMM-GroveGestures master --squash
+cd ./modules/MMM-GroveGestures; npm install;  cd scripts; chmod +x *.sh; cd ../../..
+
+#git remote add -f MMM-
+#git subtree add --prefix modules/MMM- MMM- master --squash
+#cd ./modules/MMM-; npm install; cd ../..
